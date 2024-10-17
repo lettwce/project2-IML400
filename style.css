@@ -60,7 +60,6 @@ marquee {
 .text-boxes {
     text-align: center;
     font-size: 15px;
-
 }
 
 #text-1:hover {
@@ -153,13 +152,27 @@ img {
 
 /* ABOUT PAGE */
 
-.about-wrapper{
+.body-about {
+    position: relative;
+}
+
+#about-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    color: #222562;
+    text-align: center;
 }
 
-/* #about-page-text{
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
 
-} */
+#about-page-text {
+    text-align: center;
+    line-height: 150%;
+}

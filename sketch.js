@@ -5,8 +5,6 @@ function setup() {
     createCanvas(300, 50);
     frameRate(30);
     textFont('Verdana');
-
-
 }
 
 function draw() {
@@ -25,7 +23,6 @@ function draw() {
     } else if (years == 0) {
         closeWindow();
         noLoop();
-
     }
 
 }
@@ -33,6 +30,5 @@ function draw() {
 function closeWindow() {
     window.close();
     window.open('letter.html', 'MyWindow', 'width=600,height=900');
-
 }
 
