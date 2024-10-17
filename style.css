@@ -118,6 +118,9 @@ marquee {
 }
 
 /* LETTER PAGE*/
+.letter-body{
+    position: relative;
+}
 
 .letter-title {
     color: #222562;
